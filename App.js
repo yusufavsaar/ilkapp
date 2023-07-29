@@ -17,7 +17,7 @@ setgiverandomNum(Math.floor(Math.random()*(maxVal-minVal + 1)+minVal))
         <p> RandomNumber:<span>{randomNum}</span></p></div>
         <div className="numContainer">
           <div>
-            <p>min:</p>
+            <p>Min:</p>
             <input
             type="number"
               value={minVal}
@@ -33,7 +33,7 @@ setgiverandomNum(Math.floor(Math.random()*(maxVal-minVal + 1)+minVal))
             />
           </div>
         </div>
-        <button onClick={giverandomnum} >buton</button>
+        <button onClick={giverandomnum} >RASTGELE SAYI BUTONU</button>
       </div>
     </div>
   );
